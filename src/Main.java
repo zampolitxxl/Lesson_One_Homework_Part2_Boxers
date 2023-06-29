@@ -19,14 +19,14 @@ public class Main {
         tyson.train(100);
         System.out.println( "Майк Тайсон после тренеровки" + tyson);
 
+        //Проблемный код ниже. Метод fightnibg
+        testFighter.fighting(testFighter, testFighter2);
 
-        //testFighter.fighting(testFighter, testFighter2);
+        int fightpow1=testFighter.fighterPower(testFighter) ;
+        System.out.println("fight pow 1  = " + fightpow1);
 
-        //int fightpow1=testFighter.fighterPower(testFighter) ;
-        //System.out.println("fight pow 1  = " + fightpow1);
-
-        //int fightpow2=testFighter2.fighterPower(testFighter2) ;
-        //System.out.println("fight pow 2  = " + fightpow2);
+        int fightpow2=testFighter2.fighterPower(testFighter2) ;
+        System.out.println("fight pow 2  = " + fightpow2);
 
 
 
