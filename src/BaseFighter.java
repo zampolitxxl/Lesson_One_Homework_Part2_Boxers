@@ -61,6 +61,10 @@ public class BaseFighter {
     }
 
     //метод определения общей силы бойца в бою
+    public void CrownBlow(){
+        System.out.println( " Коронный удар");
+    }
+
 
     public int fighterPower(BaseFighter one) {
         //int totalPower=0;
